@@ -7,7 +7,10 @@ import InicioCategory from './Pages/InicioCategory';
 import LoginSignup from './Pages/LoginSignup';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
-
+import Footer from './Components/Footer/Footer';
+import men_banner from './Components/Assets/banner_mens.png'
+import women_banner from './Components/Assets/banner_women.png'
+import kid_banner from './Components/Assets/banner_kids.png'
 
 function App() {
   return (
@@ -16,14 +19,15 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Inicio/>}/>
-        <Route path='/personal' element={<InicioCategory category='personales'/>}/>
-        <Route path='/inventario' element={<InicioCategory category="inventarios"/>}/>
-        <Route path='/clientes' element={<InicioCategory category="cliente"/>}/>
+        <Route path='/personal' element={<InicioCategory banner={men_banner} category='personales'/>}/>
+        <Route path='/inventario' element={<InicioCategory banner={women_banner} category="inventarios"/>}/>
+        <Route path='/clientes' element={<InicioCategory banner={kid_banner} category="cliente"/>}/>
         <Route path='/contactenos' element={<InicioCategory category="contacto"/>}/>
         <Route path='/product' element={<Product></Product>}></Route>
         <Route path='/cart' element={<Cart/>}/> 
         <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
+      <Footer />
       </BrowserRouter>
       
     </div>
