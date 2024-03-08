@@ -50,4 +50,9 @@
     justify-content: center;
     flex: 1;
     display: flex;
+    height: 100vh;
 }
+.hero-right img{
+    width: auto; 
+    max-height: 100%; 
+   }

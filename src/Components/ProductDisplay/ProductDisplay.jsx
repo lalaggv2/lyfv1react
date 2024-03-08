@@ -3,7 +3,7 @@ import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png';
 import star_dull_icon from '../Assets/star_dull_icon.png'
 
-const ProductDisplay = () => {
+const ProductDisplay = (props) => {
     const {product} = props;
   return (
     <div className='productdisplay'>
@@ -24,7 +24,7 @@ const ProductDisplay = () => {
                 <img src={star_icon} alt="" />
                 <img src={star_icon} alt="" />
                 <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
+                <img src={star_icon} alt="" /> 
                 <img src={star_dull_icon} alt="" />
                 <p>(17)</p>
             </div>
@@ -32,6 +32,22 @@ const ProductDisplay = () => {
                 <div className="productdisplay-right-price-old">${product.old_price}</div>
                 <div className="productdisplay-right-new-price">${product.old_price}</div>
             </div>
+            <div className="productdisplay-right-description">
+                Pantalones de mezclilla en diferentes disenos y estilos
+            </div>
+            <div className="productdisplay-right-size">
+                <h1>Seleccione la talla</h1>
+                <div className="productdisplay-right-sizes">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                    <div>XXL</div>
+                </div>
+            </div>
+            <button>COMPRAR</button>
+            <p className="productdisplay-right-category"><span>Category </span>Women , T-Shirt </p>
+            <p className="productdisplay-right-category"><span>Tags:</span>Modern, Latest Collection </p>
         </div>
     </div>
   )

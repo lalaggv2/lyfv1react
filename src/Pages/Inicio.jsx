@@ -10,7 +10,6 @@ const Inicio = () => {
     <div>
       <Hero/>
       <Popular />
-      <Offers />
       <NewCollections />
       <Newsletter />
     </div>

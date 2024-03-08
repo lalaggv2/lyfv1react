@@ -19,7 +19,7 @@ const Navbar = () => {
             <li onClick={()=>{setMenu("inicio")}}><Link style={{ textDecoration: 'none' }} to='/'>Inicio</Link>{menu==="inicio"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("personal")}}><Link style={{ textDecoration: 'none' }} to='/personal'>Personal</Link>{menu==="personal"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("inventario")}}><Link style={{ textDecoration: 'none' }} to='/inventario'>Inventario</Link>{menu==="inventario"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("clientes")}}><Link style={{ textDecoration: 'none' }} to='/clientes'>Clientes</Link>{menu==="clientes"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("catalogo")}}><Link style={{ textDecoration: 'none' }} to='/catalogo'>Catalogo</Link>{menu==="clientes"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("contactenos")}}><Link style={{ textDecoration: 'none' }} to='/contactenos'>Contactenos</Link>{menu==="contactenos"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">

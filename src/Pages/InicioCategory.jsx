@@ -11,7 +11,8 @@ const InicioCategory = (props) => {
         <img className='iniciocategory-banner' src={props.banner} alt="" />
         <div className="iniciocategory-indexSort">
           <p>
-            <span>Showing 1-12</span> out of 36 products
+            <span>Bienvenido a la pagina de </span>
+            PERSONAL
           </p>
           <div className="iniciocategory-sort">
             Sort by <img src={dropdown_icon} alt="" />
@@ -27,7 +28,7 @@ const InicioCategory = (props) => {
             }
           })}
         </div>
-        <div className="iniciocategory-loadmore">\
+        <div className="iniciocategory-loadmore">
           Explore mas opciones
         </div>
     </div>
