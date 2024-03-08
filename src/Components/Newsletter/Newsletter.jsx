@@ -4,7 +4,7 @@ import './Newsletter.css'
 const Newsletter = () => {
   return (
     <div className='newsletter'>
-        <h1>Subscribete a nuestro correos</h1>
+        <h1>Subscribete a nuestros correos</h1>
         <p>para estar al tanto de las ultimas noticias</p>
         <div>
             <input type="email" placeholder='Ingresa tu correo electronico' />

@@ -9,15 +9,12 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className="hero-left">
-            <h2>Bienvenido a L y F Confecciones</h2>
+            <h1>Bienvenido a LyF Confecciones</h1>
             <div>
-                <div className="hero-hand-icon"> 
-                    <img src={hand_icon} alt="" />
-                </div>
                 <p>Nos dedicamos a producir jeans y uniformes. </p>
             </div>
             <div className="hero-latest-btn">
-                <div>Latest collection</div>
+                <div>Ingresar</div>
                 <img src={arrow_icon} alt="" />
             </div>
         </div>
