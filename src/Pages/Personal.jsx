@@ -1,19 +1,21 @@
 import React from 'react'
+import Banner from '../Components/Banner/Banner'
 
-const Inventario = () => {
+const Personal = () => {
   return (
     <div>
-      <div className='inicio-category'>
+        <Banner/>
+        <div className='inicio-category'>
         <img className='iniciocategory-banner' alt="" />
         <div className="iniciocategory-indexSort">
           <p>
             <span>Bienvenido a la pagina de </span>
-            INVENTARIO
+            PERSONAL
           </p>
-       </div>
-      </div>
+        </div>
+        </div>
     </div>
   )
 }
 
-export default Inventario
+export default Personal

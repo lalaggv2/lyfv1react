@@ -12,7 +12,7 @@ const InicioCategory = (props) => {
         <div className="iniciocategory-indexSort">
           <p>
             <span>Bienvenido a la pagina de </span>
-            PERSONAL
+            CATALOGO
           </p>
           <div className="iniciocategory-sort">
             Sort by <img src={dropdown_icon} alt="" />
