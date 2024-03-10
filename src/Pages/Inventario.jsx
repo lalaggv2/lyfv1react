@@ -1,5 +1,6 @@
 import React from 'react'
 
+//esta es la pagina que muestra el inventario. Esta en proceso
 const Inventario = () => {
   return (
     <div>

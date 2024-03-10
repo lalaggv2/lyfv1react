@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../Components/Banner/Banner'
 
+//pagina que va a mostrar los datos a los que tienen acceso los empleados. En construccion
 const Personal = () => {
   return (
     <div>

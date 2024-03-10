@@ -4,6 +4,7 @@ import Popular from '../Components/Popular/Popular'
 import NewCollections from '../Components/NewCollections/NewCollections'
 import Newsletter from '../Components/Newsletter/Newsletter'
 
+//Homepage de la aplicacion que renderiza diferentes componentes
 const Inicio = () => {
   return (
     <div>

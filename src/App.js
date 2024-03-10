@@ -15,6 +15,7 @@ import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
 import Contactenos from './Pages/Contactenos';
 
+//archivo base con las rutas que aparecen al escoger un producto de la pagina
 function App() {
   return (
     <div>
@@ -22,8 +23,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Inicio/>}/>
-        <Route path='/personal' element={<Personal banner={men_banner} category='personales'/>}/>
-        <Route path='/inventario' element={<Inventario banner={women_banner} category="inventarios"/>}/>
+        <Route path='/personal' element={<Personal banner={men_banner} />}/>
+        <Route path='/inventario' element={<Inventario banner={women_banner} />}/>
         <Route path='/catalogo' element={<InicioCategory banner={kid_banner} category="catalogo"/>}/>
         <Route path='/contactenos' element={<Contactenos />}/>
         <Route path='/product' element={<Product/>}>

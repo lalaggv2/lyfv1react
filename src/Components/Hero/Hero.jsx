@@ -3,7 +3,7 @@ import './Hero.css'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image2 from '../Assets/hero_image2.jpg'
 
-//este componente representa la imagen y texto central de la homepage
+//este componente representa la imagen y texto central de la homepage Inicio
 const Hero = () => {
   return (
     <div className='hero'>

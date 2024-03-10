@@ -3,6 +3,7 @@ import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png';
 import star_dull_icon from '../Assets/star_dull_icon.png'
 
+//componente para presentar las imagenes de los productos usando los archivos en json importado por props
 const ProductDisplay = (props) => {
     const {product} = props;
   return (
@@ -15,6 +16,7 @@ const ProductDisplay = (props) => {
                 <img src={product.image} alt="" />
             </div>
             <div className="productdisplay-img">
+
                 <img className='productdisplay-main-img' src={product.image} alt="" />
             </div>
         </div>

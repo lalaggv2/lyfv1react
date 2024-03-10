@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './CSS/Contactenos.css'
 
-
+//Pagina por la cual los interesados pueden enviar un mensaje a la compania via email
 export const Contactenos = () => {
   const form = useRef();
 
